@@ -3503,7 +3503,7 @@
       "type": "block"
     }
   },
-   {
+  {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mrelko\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -3997,7 +3997,8 @@
     "action": {
       "type": "block"
     }
-  },{
+  },
+  {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?promokrot\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -4032,7 +4033,8 @@
     "action": {
       "type": "block"
     }
-  },{
+  },
+  {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?promokrot\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -6125,21 +6127,23 @@
   },
   {
     "trigger": {
-        "url-filter": "^https?://www\\.youtube\\.com/get_midroll_info?.*",
-        "url-filter-is-case-sensitive": false,
-        "load-type": [
-            "first-party"
-        ]
+      "url-filter": "^https?://www\\.youtube\\.com/get_midroll_info?.*",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "first-party"
+      ]
     },
     "action": {
-        "type": "block"
+      "type": "block"
     }
   },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?am15\\.net[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6149,7 +6153,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?parimatch\\.com[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6159,7 +6165,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ad.rambler\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6169,7 +6177,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adspynet\\.com[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6179,7 +6189,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?kavanga\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6189,7 +6201,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?goodadvert\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6199,7 +6213,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mediatoday\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6209,7 +6225,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?otclick-adv\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
@@ -6219,7 +6237,9 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?chokoladsrv\\.net[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
       "type": "block"
